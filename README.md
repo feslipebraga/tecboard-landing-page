@@ -1,31 +1,41 @@
 # 🚀 Tecboard - Landing Page Responsiva
 
-Landing Page desenvolvida para a **Tecboard**, uma empresa fictícia de monitoramento em tempo real. O foco deste projeto foi a aplicação prática de conceitos de HTML Semântico e técnicas modernas de CSS para criar um layout responsivo e acessível.
+Landing Page desenvolvida para a **Tecboard**, uma plataforma de monitoramento em tempo real. Este projeto foi criado para consolidar conhecimentos em **HTML5** e **CSS3**, focando em layouts flexíveis e adaptação para dispositivos móveis.
 
 ## ✨ Destaques do Projeto
 
-* **Estrutura Semântica:** Uso correto de tags como `<header>`, `<main>`, `<section>`, e `<figure>` para garantir a organização e acessibilidade do conteúdo.
-* **CSS Moderno e Otimizado:** Implementação de layout utilizando **Flexbox** (`display: flex`) e adoção de **Variáveis CSS** (`:root`) para gerenciamento eficiente de cores e temas.
-* **Responsividade:** Design com foco em `max-width` e unidades **`rem`** para garantir que o layout se ajuste perfeitamente em diferentes tamanhos de tela.
-* **Tipografia:** Importação e otimização da fonte customizada **Poppins** (via Google Fonts).
-* **Componentes:** Estilização do *Hero Section* e do **CTA Button** (Call to Action) com foco em alto contraste.
+* **HTML Semântico:** Organização do conteúdo utilizando as tags `<header>`, `<main>` e `<section>` para melhor leitura e SEO.
+* **Imagens Responsivas:** Uso da tag `<picture>` para carregar diferentes versões da imagem hero (desktop vs. mobile), otimizando o carregamento e a performance em celulares.
+* **Flexbox Layout:** Utilização de `display: flex` para alinhar elementos no cabeçalho e centralizar o conteúdo da seção principal de forma dinâmica.
+* **Variáveis CSS:** Centralização das cores do tema no `:root` para facilitar futuras manutenções e permitir a implementação de novos temas.
+* **Design Adaptativo:** Implementação de Media Queries para garantir que o layout se ajuste de telas largas (1200px) até smartphones pequenos (342px).
 
 ## 🛠️ Tecnologias Utilizadas
 
-* `HTML5` (Estrutura e Semântica)
-* `CSS3` (Estilização e Layout Responsivo)
+* `HTML5`
+* `CSS3`
+* `Google Fonts` (Fontes Poppins e Unbounded)
 
-## 🎨 Cores e Tipografia
+## 🎨 Cores e Estilo
 
-O projeto segue um tema de Dark Mode com cores definidas em variáveis para fácil manutenção:
+O projeto utiliza um esquema de **Dark Mode**:
 
 | Variável | Cor | Descrição |
 | :--- | :--- | :--- |
-| `--cor-principal` | `#9747FF` | Roxo de Destaque / CTA |
-| `--cor-texto` | `#F5F5F5` | Texto Principal (Off-White) |
-| `--fundo` | `#0E1014` | Fundo (Dark Mode) |
+| `--cor-principal` | `#9747FF` | Roxo (Botão CTA e Destaques) |
+| `--fundo` | `#0E1014` | Cor de fundo principal |
+| `--cor-texto` | `#F5F5F5` | Texto principal (Off-white) |
 
-**Tipografia Principal:** Poppins (Regular 400 e Bold 700).
+---
+
+## 🚀 Roadmap
+
+O projeto ainda está em desenvolvimento. As próximas melhorias planejadas são:
+
+- [ ] **Implementação do Modo Claro:** Criar a versão "Light Mode" do CSS redefinindo as variáveis de cor.
+- [ ] **Lógica de Troca de Tema:** Adicionar **JavaScript** para fazer o botão de tema alternar entre Dark e Light Mode.
+
+---
 
 ## 🧑‍💻 Como Visualizar
 
@@ -34,6 +44,9 @@ O projeto segue um tema de Dark Mode com cores definidas em variáveis para fác
     git clone https://github.com/feslipebraga/tecboard-landing-page/
     ```
 2.  **Abra o Arquivo:**
-    Abra o arquivo `index.html` diretamente no seu navegador.
-3.  **Teste a Responsividade:**
-    Redimensione a janela do navegador ou use as DevTools (F12) para ver como o layout se adapta a telas menores.
+    Basta abrir o arquivo `index.html` em qualquer navegador moderno.
+3.  **Hospedagem:**
+    O projeto pode ser visualizado online via **GitHub Pages**
+    https://feslipebraga.github.io/tecboard-landing-page/
+
+---
