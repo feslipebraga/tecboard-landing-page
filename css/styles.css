@@ -30,8 +30,7 @@ body {
     display: flex;
     flex-direction: column;
     max-width: 1200px;
-    margin: 70px auto;
-    /* não muda se quebra a header*/
+    margin: 70px auto; /* não altera pq quebra a header */
     align-items: center;
     text-align: center;
 }
@@ -89,13 +88,49 @@ h1 {
 
 @media (max-width:768px) {
     .container {
-        width: 648px;
-        height: 993px;
+        width: 100%;
+        max-width: 648px;
+        height: auto;
     }
 
     .hero {
-        width: 648px;
+        width: 100%;
+        max-width: 648px;
         height: 882px;
-        margin: 60px auto 47px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 648px;
+        height: auto;
+    }
+}
+
+@media (max-width:480px) {
+    .container {
+        width: 100%;
+        max-width: 342px;
+        height: auto;
+        margin: 32px auto;
+    }
+
+    .hero {
+        width: 100%;
+        max-width: 342px;
+        height: auto;
+    }
+
+    h1 {
+        font-size: 40px;
+    }
+
+    body {
+        font-size: 20px;
+    }
+
+    .hero-image {
+        width: 100%;
+        max-width: 342px;
+        height: auto;
     }
 }
